@@ -1,4 +1,4 @@
-# Point Cloud Based 3DGS Data Generation for 3D Data Compression
+# Point Cloud-Based 3DGS Data Generation for 3D Data Compression
 
 광운대학교 컴퓨터정보공학부 이혜미, 송유리, 황정원
 
