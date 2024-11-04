@@ -12,7 +12,7 @@
 
 다운로드한 3DGS 코드에서 **다음 파일들과 폴더들을 본 저장소의 수정된 버전으로 대체**해야 합니다.
 
-- `scene/` 폴더 및 `utils/` 폴더: 본 저장소의 `gaussian-splatting/scene`과 `gaussian-splatting/utils` 폴더로 덮어씌우기
+- `scene/` 폴더 및 `utils/` 폴더: 본 저장소의 `gaussian-splatting/scene`과 `gaussian-splatting/utils` 폴더로 대체
 
 - `metrics.py`, `render.py`, `train.py`: 본 저장소의 `gaussian-splatting` 폴더에 있는 파일로 대체
 
