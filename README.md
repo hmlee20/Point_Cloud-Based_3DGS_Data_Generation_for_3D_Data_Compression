@@ -8,7 +8,7 @@
 
 ## 1. 3DGS 오픈소스 다운로드 및 수정
 
-우선 [gaussian-splatting](https://github.com/graphdeco-inria/gaussian-splatting)를 클론하여 다운로드합니다.
+우선 [3D Gaussian Splatting (3DGS)](https://github.com/graphdeco-inria/gaussian-splatting)를 클론하여 다운로드합니다.
 
 다운로드한 3DGS 코드에서 **다음 파일들과 폴더들을 본 저장소의 수정된 버전으로 대체**해야 합니다.
 
