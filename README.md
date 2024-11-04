@@ -1,4 +1,4 @@
-# 3차원 데이터 압축을 위한 point cloud 기반 3DGS 데이터 생성
+# Point Cloud Based 3DGS Data Generation for 3D Data Compression
 
 광운대학교 컴퓨터정보공학부 이혜미, 송유리, 황정원
 
@@ -8,7 +8,7 @@
 
 ## 1. 3DGS 오픈소스 다운로드 및 수정
 
-우선 [3DGS 오픈소스](https://github.com/graphdeco-inria/gaussian-splatting)를 클론하여 다운로드합니다.
+우선 [gaussian-splatting](https://github.com/graphdeco-inria/gaussian-splatting)를 클론하여 다운로드합니다.
 
 다운로드한 3DGS 코드에서 **다음 파일들과 폴더들을 본 저장소의 수정된 버전으로 대체**해야 합니다.
 
