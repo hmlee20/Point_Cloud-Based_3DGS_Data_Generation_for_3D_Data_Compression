@@ -69,3 +69,13 @@ input_data/
 3. **Evaluation**: `metrics.py` 를 통해 렌더링 결과의 PSNR을 측정할 수 있습니다.
 
 자세한 실행 방법은 3DGS 오픈소스의 README를 참고하세요.
+
+## 4. Color Format 변환
+
+3DGS 실행 후 생성된 결과 `ply` 파일의 color format을 YUV로 변환하고 압축할 수 있습니다. 이를 통해 파일 용량을 줄이고, 필요에 따라 RGB 포맷으로 다시 변환할 수 있습니다.
+
+- **YUV 변환**: `tools` 폴더 내의 `rgb2yuv.py` 스크립트를 사용하여 RGB 형식의 `ply` 파일을 YUV 형식으로 변환합니다. 실행 예시는 다음과 같습니다.
+
+- **RGB 복원**: YUV 형식으로 변환된 `ply` 파일을 RGB 형식으로 다시 복원하려면 `tools` 폴더의 `yuv2rgb.py` 스크립트를 사용합니다.
+
+이와 같은 변환 과정을 통해 효율적인 데이터 저장 및 압축이 가능합니다.
